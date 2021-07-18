@@ -40,7 +40,7 @@ export default function App() {
     return (
       <>
         <S.Timer id="countdown_dashboard">
-            <h3>Contagem regrCadatre seu email já!essiva para nosso saldão de preços!</h3>
+            <h3>Contagem regressiva para nosso saldão de preços!</h3>
             <div class="dashp">
                 <span class="dashtitle">Dias</span>
                 <p id="days">{dias}</p>
