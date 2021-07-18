@@ -27,6 +27,8 @@ export default function App() {
     if (nome !== '' && validateEmail(email)) {
       const dado = [nome,email];
       localStorage.setItem(`Lead-${getRandom(1,100)}`, JSON.stringify(dado));
+      setNome('');
+      setEmail('');
       document.querySelector('.mensagem').style.color = "green";
       setMensagem('Dados Enviados com sucesso!');
     } else {
